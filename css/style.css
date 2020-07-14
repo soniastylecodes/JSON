@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ffffff;
+}
+nav{
+    /* border: 2px solid blue; */
+    background-color: darkgrey;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a.logo{
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: maroon;
+    font-size: 45px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0, 1.5);
+}
+
+ul.navlist{
+    /* border: 2px dotted green; */
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+ul.navlist li{
+    float: left;
+}
+
+ul.navlist li a{
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+ul.navlist li a.active{
+    color: rgb(47, 86, 97);
+}
+
+ul.navlist li a:hover{
+    color: maroon;
+}
+/* =======================================================Header Styles============================================= */
+
+.header{
+    /* border: 2px solid maroon; */
+    max-width: 1000px;
+    height: 400px;
+    margin: 60px auto;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+/* =======================================================CARD STYLES============================================= */
+.cardholder{
+    /* border: 7px solid rgb(209, 209, 20); */
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    font-family: Arial;
+    text-align: center;
+    margin: 30px 0;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+p.desc{
+    color: gray;
+    font-size: 15px;
+    margin: 15px 0;
+}
+.card img{
+    width: 100%;
+    height: 225px;
+}
+.card .content{
+    padding: 10px;
+}
+.intro{
+    text-align: center;
+}
+.intro p{
+    color: rgb(41, 11, 11);
+    font-size: 20px;
+    margin: 15px 0;
+}
+h1{
+    text-transform: capitalize;
+    padding: 10px;
+}
+/* ============================================================================================================== */
+
+/* =========================================ABOUT STYLES=========
+work on responsiveness of the images
+================================================ */
+.abouthead{
+    /* border: 2px solid red; */
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px 0 0 0;
+    height: 100px;
+    margin: 40px auto;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.content-area{
+    /* border: 2px solid green; */
+    /* overflow: hidden; */
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-area img{
+    /* border: 2px solid black; */
+    max-width: 450px;
+    height: 400px;
+    margin: 60px auto;
+    border-radius: 50px;
+    float: left;
+}
+
+.area{
+    /* border: 2px solid rgb(194, 10, 41); */
+    max-width: 450px;
+    margin: 60px auto;
+    text-align: center;
+    float: right;
+    /* border-radius: 50px; */
+    padding-top: 15px;
+}
+.area h2{
+    text-transform: uppercase;
+    margin: 10px;
+    color: maroon;
+    padding: 5px;
+}
+.area p{
+    margin-bottom: 15px;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 5px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    color: black;
+    font-size: 20px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    margin-top:20px ;
+    border-radius: 30px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0, 1.5);
+    box-shadow: 3px 3px 10px 4px rgb(116, 65, 65);
+}
+button:hover{
+    background-color: #f3618b;
+}
+hr{
+    height: 5px;
+}
+/* ============================================================================================================= */
+
+/* ================================================SERVICES STYLES=============================================== */
+.servicehead{
+    /* border: 2px solid red; */
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px 0 0 0;
+    height: 100px;
+    margin: 40px auto;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.services{
+    /* border:2px solid blue; */
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.weserve{
+    /* border:2px solid black; */
+    text-align: center;
+    width: 400px;
+}
+.services h2{
+    text-align: center;
+}
+.services p{
+    font-style: italic;
+    font-weight: bold;
+}
+/* gallery section===========================================*/
+
+.gallery-header{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 50px 0px;
+    /* color: maroon; */
+}
+.gallery-header h2{
+   font-size: 30px;
+   padding: 5px;
+}
+.gallery-header{
+    text-transform: capitalize;
+    font-size: 20px;
+    
+}
+.servgallery{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.servgallery img{
+    width: 350px;
+    height: 200px;
+    padding: 15px;
+    margin-left: 20px;
+    transition: 2s;
+}
+.servgallery img a{
+    display: inline-block;
+    padding: 14px 16px;
+}
+.servgallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .5);
+}
+/* ============================================================================================================= */
+/* ==============================================CONTACT STYLES================================================== */
+.contacthead{
+    /* border: 2px solid red; */
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px 0 0 0;
+    height: 100px;
+    margin: 40px auto;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.content-area{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+.content-area h1{
+    text-align: center;
+    text-shadow: 3px 3px 5px maroon;
+}
+.section1{
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    list-style-type: none;
+    display: inline-flex;
+}
+#sect1{
+    /* border: 2px solid black; */
+    width: 320px;
+    height: 20vh;
+    /* float: left; */
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+#sect2{
+    /* border: 2px solid black; */
+    width: 320px;
+    height: 20vh;
+    /* float: left; */
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#sect3{
+    /* border: 2px solid black; */
+    width: 320px;
+    height: 20vh;
+    /* float: left; */
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#sect3 a{
+    /* border: 1px solid maroon; */
+    width: 45px;
+    height: 40px;
+    padding-top: 3px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 5px;
+    color: rgb(1, 12, 10);
+
+}
+#sect3 a:hover{
+    background-color: #eb2f64;
+
+}
+
+.section2{
+    /* border: 2px solid black; */
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.section2 .contact{
+    margin: 30px;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 100px;
+
+}
+.section2 .contact label{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section2 .contact input{
+    padding: 10px;
+}
+.section2 .area{
+    /* padding-left: 30px; */
+    border: 2px dotted red;
+}
+
+textarea {
+    width: 600px;
+}
+
+.area label{
+    font-size: 20px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+hr{
+    height: 5px;
+}
+.contact{
+    text-align: center;
+}
+#btn{
+    width: 80px;
+    height: 35px;
+    margin-left: 46%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+/* ================================================FOOTER STYLES================================================= */
+footer{
+    /* border:2px solid blue; */
+    background-color: darkgrey;
+    text-align: center;
+    padding: 60px 0 0 0;
+    height: 100px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
